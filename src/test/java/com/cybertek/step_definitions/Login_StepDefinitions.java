@@ -42,4 +42,9 @@ public class Login_StepDefinitions {
     public void userEntersAdminPassword() {
         System.out.println("User enters admin password");
     }
+
+    @Given("user is on the login page")
+    public void userIsOnTheLoginPage() {
+        System.out.println("User is on login page");
+    }
 }
